@@ -140,7 +140,7 @@ if ($aliases_filename) {
 }
 
 if ($use_common_extensions) {
-    $extensions_string = "py,php,pl,rb,sql,c,sh,cpp,h,hpp,cxx,hxx,as,js,html,css,scss,txt,xml,xsd,xsl,conf,ini,yaml,json,m4,ui,pro,pri";
+    $extensions_string = "py,php,pl,rb,sql,c,sh,cpp,h,hpp,cxx,hxx,as,js,html,css,scss,txt,xml,xsd,xsl,conf,ini,yaml,json,m4,ui,pro,pri,md";
 }
 
 my @extensions = split(/,/, $extensions_string);
